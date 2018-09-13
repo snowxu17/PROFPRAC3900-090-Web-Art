@@ -1,0 +1,4 @@
+# PROFPRAC3900-090-Web-Art
+This is a class repository for PROFPRAC 3900-090: Web Art for Fall 2018.
+<br />It contains my personal notes & assginment.
+
