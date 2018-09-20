@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Positioning</title>
+
+        <style media="screen">
+            @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+
+            * {
+                font-family: 'Libre Barcode 39 Text', cursive;
+                font-size: 40px;
+                font-weight: 400;
+            }
+
+            body {
+                background-color: #18c4c9;
+            }
+
+            header {
+                padding-left: 13px;
+                margin: 0;
+                background-image: url(images/banner.png);
+                color: rgba(168, 195, 199, 0.19);
+                letter-spacing: -2px;
+                text-shadow: 2px 3px black;
+                border: 2px solid red;
+            }
+
+            h1 {
+
+            }
+
+            p {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            #i-1 {
+                float: left;
+            }
+
+            #i-3 {
+                float: left;
+                width: 10%;
+                height: 10%;
+            }
+
+            ul {
+                border: 10px solid transparent;
+                border-image: url(images/banner.png) 50 round;
+                border-radius: 10px;
+            }
+
+            [id|=pl] {
+                color: green;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Candy gingerbread</h1>
+        </header>
+
+        <section>
+            <h1> This is <em>NOT</em> Open Sans.</h1>
+            <img id="i-1" src="images/img2.png" alt=" ">
+            <p>Powder icing I <a href="https://xyz.com">love tart</a>. Topping gingerbread sweet roll I love macaroon cookie ice cream jujubes oat cake. Jelly-o marshmallow jujubes. Donut I love topping. I love I love muffin marshmallow <a href="https://jello.com">jelly-o</a> The image is floated right. It is positioned as far right as it can go. and words will flow aorund it. sort of. The best it can, given the size of the image and window.</p>
+        </section>
+
+        <section>
+            <h1>Gingerbread jujubes</h1>
+            <p>sesame snaps <a href="https://www.abc.com">soufflé</a> caramels carrot cake <a href="marshmallow.html">marshmallow</a> topping sesame snaps.</p>
+            <img id="i-2" src="images/img1.png" alt="dog">
+            <ul>
+                <li id="pl-1">I love liquorice sweet roll soufflé</li> <li>caramels fruitcake toffee pudding</li> <li>gingerbread. Tart dessert powder jujubes</li>
+                <li id="pl-2"> pie toffee. Caramels halvah</li>
+                <li> I love fruitcake brownie</li>
+            </ul>
+            <p id="pl-3"> danish jujubes. Muffin topping dessert topping <a href="horsecow.com">chupa</a> chups dragée I love toffee pastry.</p>
+        </section>
+
+        <img id="i-3" src="images/img2.png" alt="doggy">
+
+        <footer>
+            Woof! I love candy canes sweet roll I love donut dragée carrot cake sesame snaps.
+        </footer>
+
+    </body>
+</html>

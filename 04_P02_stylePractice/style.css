@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+#box-model-puzzle{
+  font-size: 25px;
+  font-family: "Oswald";
+  color: purple;
+  text-align: left;
+  line-height: 50px;
+  margin-left: 5px;
+}
+
+section > p
+{
+  background-color: pink;
+  padding: 10px;
+}
+
+#challenge-1{
+  padding: 50px;
+
+  /* Padding is a cleaner way  */
+  /* text-indent: 5%;
+  line-height: 100px; */
+}
+
+.challenge-2{
+  display: inline-block; /*or inline-flex*/
+  width: 10%;
+  height: 30%;
+  vertical-align: top;
+}
+
+#challenge-3{
+  width: 30%;
+  border: 7px dashed purple;
+}
+
+#challenge-4{
+  border-bottom: 20px dotted purple;
+}
+
+#challenge-5{
+  width: 50%;
+  margin:100px auto 100px auto;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#challenge-6{
+  text-align: right;
+  font-style: italic;
+  border-right: 20px dashed purple;
+  text-transform: uppercase;
+}

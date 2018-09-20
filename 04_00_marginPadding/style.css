@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://i.stack.imgur.com/FiRFI.png);
+    background-repeat:repeat;
+}
+
+div{
+    color: white;
+    display: inline-block;
+    /* display: none; */
+    width: 20%;
+    height: 200px;
+
+    border: 6px dashed mistyRose;
+}
+
+#parent-A{
+    margin-left: 31px;
+}
+
+/* Selector targets all elements with an id that starts with "parent" */
+[id^="parent-"]{
+    color: red;
+    text-align: center;
+    display: inline-flex;    
+}
+
+#parent-A{
+  margin-left: 100px;
+}
+
+[id^="child-"]{
+    width: 50px;
+    height: 50px;
+
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+}

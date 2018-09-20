@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Cabin", sans-serif;
+	font-size: 20px;
+}
+
+[id^="box-"] {
+	border: 5px dashed black;
+	width: 300px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+}
+
+#box-absolute {
+	color: white;
+	background-color: purple;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#box-relative-parent {
+	color: white;
+	background-color: lime;
+	position: relative;
+	top: 0;
+	left: 500px;
+}
+
+#box-absolute-child {
+	color: white;
+	background-color: goldenrod;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+
+	z-index: -1;
+}

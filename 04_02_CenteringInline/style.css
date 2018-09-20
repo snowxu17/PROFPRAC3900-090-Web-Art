@@ -1,0 +1,113 @@
+body {
+	font-family: "Cabin", sans-serif;
+	font-size: 25px;
+}
+
+#page-wrap {
+	width: 750px;
+	border: 10px dotted crimson;
+	margin: 0 auto;
+}
+
+header > h1 {
+	/* Works for centering text */
+	text-align: center;
+	color:red;
+}
+
+header > h3 {
+	text-align: center;
+	color:hotpink;
+}
+
+#hipster-section {
+	/*
+		Works for centering any inline or inline-block child elements
+		within #hipster-section
+	*/
+	text-align: center;
+}
+
+/* Target all p elements that are children of hipster-section */
+#hipster-section > p {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	border: 1px solid crimson;
+	text-align: left; /* Restore left text-align */
+
+}
+
+#cat-section {
+	/*
+		Works for centering any inline or inline-block child elements (e.g. the
+		images) within #cat-section
+	*/
+	text-align: center;
+	/* display: inline-flex; */
+}
+
+#cat-section > img {
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+	font-family: "Cabin", sans-serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+header > h1 {
+	text-align: center;
+}
+
+#page-wrap {
+	width: 800px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#hipster-section > h1 {
+	text-align: center;
+}
+
+#hipster-section {
+	text-align: center;
+}
+
+#hipster-section > p {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	border: 1px solid red;
+	text-align: left;
+}
+
+#cats-section {
+	text-align: center;
+}
+
+#cats-section img {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}*/

@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Cabin", sans-serif;
+	font-size: 20px;
+}
+
+[id^="box-"] {
+	border: 5px dashed black;
+	width: 300px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+
+}
+
+#box-static {
+	color: white;
+	background-color: crimson;
+	position: static; /* Default value for position */
+}
+
+#box-relative {
+	color: white;
+	background-color: deepskyblue;
+	position: relative; /* moves it relative to where it would normally appear */
+
+	/* top, bottom, left, right */
+	top: -100px;
+	left: 100px;
+
+}

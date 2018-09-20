@@ -1,0 +1,75 @@
+body {
+	font-family: "Cabin", sans-serif;
+	font-size: 25px;
+}
+
+/* select all h1 elements that has the header as a parent */
+header > h1 {
+	text-align: center;
+}
+
+/* select all h1 elements whose parent is of a certain class */
+.hipster-section > h1 {
+	text-align: center;
+}
+
+
+.hipster-section > img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+#i-1{
+	width: 95%;
+}
+
+#page-wrap {
+	width: 650px;
+	border: 5px dashed skyblue;
+
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+	font-family: "Cabin", sans-serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+header > h1 {
+	text-align: center;
+}
+
+#page-wrap {
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#hipster-section > h1 {
+	text-align: center;
+}
+
+#hipster-banner {
+	/* Images are inline elements */
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}*/
