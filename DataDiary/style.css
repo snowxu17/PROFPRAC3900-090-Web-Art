@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gabriela|IM+Fell+DW+Pica|Lily+Script+One');
+
+/* Load font saved in a folder */
+@font-face {
+
+}
+
+*{
+  background-image: linear-gradient(to right, HotPink, Tomato, THISTLE, peachPuff, LIGHTCORAL);
+
+  line-height: 40px;
+
+  margin-left: 3px;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  text-align: justify;
+  text-indent: 50px;
+
+}
+
+#title{
+  border: 5px dotted rgb(6, 200, 194);
+  color: LAVENDERBLUSH;
+  font-family: 'Gabriela',serif;
+  text-align:center;
+  text-shadow: 10px 0px 5px HotPink;
+}
+
+#center{
+  font-family: 'IM Fell DW Pica',serif;
+  text-align: center;
+  ext-shadow: 10px 0px 5px HotPink;
+}
+
+.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  text-align:center;
+  font-size: 30px;
+}
+
+a{
+  color: LAVENDERBLUSH;
+}
+
+body{
+  border: 8px dotted PALEGREEN;
+  font-size: 30px;
+}
+
+p{
+  border: 5px dotted MEDIUMSLATEBLUE;
+  color: LAVENDERBLUSH;
+  line-height: 50px;
+}
+
+img{
+  border: 5px dotted LIGHTYELLOW;
+}
+
+iframe{
+  border: 5px dotted MEDIUMTURQUOISE;
+}
+
+span{
+  font-family:'Lily Script One', cursive;
+  font-size: 50px;
+}
+
+marquee{
+  font-family: 'Lily Script One', cursive;
+  font-style: italic;
+  color: mistyRose;
+  font-size: 30px;
+
+  line-height: 50px;
+}
