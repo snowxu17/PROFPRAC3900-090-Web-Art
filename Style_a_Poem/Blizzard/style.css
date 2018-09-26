@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Homemade+Apple|Inconsolata|Pacifico|Spirax');
+
+*{
+  background-image: radial-gradient(circle, LIGHTYELLOW 15%, powderblue, LAVENDERBLUSH);
+
+}
+
+h1{
+  font-size: 100px;
+  color: steelblue;
+  padding: 200px;
+}
+
+h2{
+  font-family: "Inconsolate", cursive;
+  padding: 100px;
+}
+
+h2{
+  font-size: 80px;
+  color: MOCCASIN;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+section{
+  color: pink;
+  font-size: 50px;
+  font-family: 'Hommade Apple', cursive;
+}
+
+span{
+  margin: 5px;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  border: 10px dotted white;
+  border-radius: 100px;
+}
+
+[id^="line-"]{
+  padding: 10px;
+  text-align: center;
+}
+
+iframe{
+  border: 4px dashed LAVENDERBLUSH;
+}
+
+div > a{
+  color: white;
+  font-family: 'Spirax', cursive;
+  font-size: 70px;
+  font-style: oblique;
+
+  border: 50px none white;
+  border-radius: 300px;
+}
+
+#sub{
+  color:lightblue;
+  font-family: "Homemade Apple", cursive;
+  font-size: 40px;
+}
+
+#number{
+  font-size: 50px;
+  background-image: radial-gradient(circle, LAVENDERBLUSH 15%, powderblue, LIGHTYELLOW, lightcoral, orangered, royalblue);
+  border: 5px none red;
+
+  font-family: "Inconsolate", cursive;
+}
+
+#snow{
+  position: relative;
+  top: -400px;
+  right: -600px;
+  border: 20px dotted white;
+  border-radius: 20px;
+
+  height: 500px;
+  width: 60%;
+
+  z-index: -1
+}
+
+#yellow{
+  text-decoration-line: overline underline;
+  text-decoration-style: dotted;
+
+  color: LEMONCHIFFON;
+}
+
+#blue{
+  text-decoration-line: overline underline;
+  text-decoration-style: dotted;
+
+  color:PALETURQUOISE;
+}
+
+#line-1{
+  width: 20%;
+  height: 10%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-style: italic;
+
+  margin-left: 28%;
+}
+
+#line-2{
+  padding: 30px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+#line-6{
+  padding: 10px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+#line-7{
+  padding: 10px;
+  margin-right: 150px;
+}
+
+#line-14{
+  color: green;
+  padding: 50px;
+  text-align: right;
+  text-indent: 100px;
+}
+
+#line-15{
+  font-family: "Pacifico", cursive;
+  color:lightcoral;
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+
+  text-transform: uppercase;
+  padding-left: 100px;
+  text-align: left;
+}
+
+#line-16{
+  color: lightcoral;
+  padding: 300px;
+  text-transform: capitalize;
+}
+
+marquee{
+
+}
