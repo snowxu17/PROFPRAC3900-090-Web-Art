@@ -169,7 +169,7 @@ h3{
   align-items: center;
   border: dotted 5px pink;
 
-  transition: all 3s linear;
+  transition: all 5s linear;
 }
 
 #border:hover{
