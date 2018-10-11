@@ -1,0 +1,66 @@
+/* transiton will happen on a :hover */
+#image-1 {
+    margin: 100px;
+    transition: transform 1s ease-in;
+
+}
+
+#image-1:active {
+  border: 10px dotted pink;
+    transform: scale(2, 1.5);
+}
+
+#text-1 {
+    font-size: 200px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px red;
+    transition: all 1s ease-in-out;
+
+}
+
+#text-1:active {
+    text-shadow: 10px 15px 20px blue, -10px -15px 20px yellow ;
+    letter-spacing: 100px;
+}
+
+#image-3 {
+position: relative;
+
+  background-color: rgba(0, 100, 100, 0.3);
+  transition: all 1s ease;
+}
+
+#image-3:hover{
+  border: 20px dotted pink;
+  transform: perspective(300px) translateZ(200px);
+  /* perspective(300px) rotateZ(720deg) rotateY(370deg); */
+  border-radius: 80%;
+
+  animation: mover 5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes mover {
+  0%{
+    transform: translateY(100px);
+  }
+
+  50%{
+    transform: translateX(500px) perspective(300px) translateZ(200px);
+  }
+
+  100%{
+    transform: translateY(-100px);
+  }
+
+}
+
+#image-4 {
+  transition: all 1s ease;
+  position: absolute;
+
+}
+
+#image-4:active{
+  transform: perspective(300px) rotateZ(720deg) rotateY(360deg);
+}

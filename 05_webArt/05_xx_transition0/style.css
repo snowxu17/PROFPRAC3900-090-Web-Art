@@ -1,0 +1,51 @@
+
+/*select all divs with a class name starting with "my" */
+div[id^="my"] {
+    background-color: crimson;
+
+    text-align: center;
+    font-size: 30px;
+    line-height: 200px;
+
+    margin: 50px;
+
+    width: 200px;
+    height: 200px;
+}
+
+/*This is the div we want to change( the lower one) */
+#myChangedDiv {
+    border-radius: 0;
+
+    /*We can write out transitions one property at a time */
+
+    /*transition: border-radius,
+    transition-property: border-radius, background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;*/
+
+    /*in one line(shorthand), seperating individual transition values with commas*/
+    /*transition: transform 2s linear, background-color 2s linear, border-radius 2s linear;*/
+
+    /*or since we are changing everything anyway*/
+    transition: all 2s linear;
+
+}
+
+#myHoverDiv:hover ~ #myChangedDiv {
+    background-color: lightskyblue;
+    border-radius: 100px;
+    transform: rotate(360deg);
+
+}
+
+#myHoverDiv {
+    color: rgba(255, 0, 0, 0.0);
+    text-shadow: 0 0 white;
+
+    transition: all 1s linear;
+}
+
+#myHoverDiv:hover {
+    text-shadow: 0 0 rgba(255,255,255,0), -45px -45px 0 red, -30px -30px 0 orange, -15px -15px 0 yellow, 0 0 0 green, 15px 15px 0 blue, 30px 30px indigo, 45px 45px violet
+}

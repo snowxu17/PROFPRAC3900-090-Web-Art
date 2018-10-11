@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+#main-greeting {
+	background-color: crimson;
+	color: white;
+	font-size: 100px;
+	padding: 20px;
+}
+
+.thumbnail {
+	width: 800px;
+	height: 800px;
+	object-fit: cover;
+}

@@ -1,0 +1,32 @@
+/*task:  Using positioning, animation, and transitions, get Mario to travel across the screen.
+When you clock on him make him jump!*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    position: fixed;
+    bottom:0;
+    margin: 0;
+    padding: 0;
+
+    width:100%;
+    height: 100%;
+
+    background: skyblue url("images/level11.jpg") no-repeat fixed 0 0/  1200px auto;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.image-div {
+    width: auto;
+    height: 100px;
+}
