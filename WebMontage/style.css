@@ -227,7 +227,7 @@ h3{
   z-index: -4;
 }
 
-p{
+#title{
 
   margin-top: 1700px;
   font-size: 40px;
@@ -242,6 +242,9 @@ p{
   left: 47%;
   z-index: 5;
 
+  color: pink;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px red;
   transition: all 4s linear;
 
 }
