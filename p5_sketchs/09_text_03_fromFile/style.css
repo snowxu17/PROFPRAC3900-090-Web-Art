@@ -1,0 +1,30 @@
+.background_animated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 200%;
+    background-size: contain;
+    background: radial-gradient(ellipse at center, #9400d3 0%, #FFFFFF 100%);
+
+    animation: filter_grad 8s infinite;
+
+}
+
+@keyframes filter_grad {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(100deg);
+    }
+
+    100% {
+        filter: hue-rotate(0deg);
+    }
+
+}
